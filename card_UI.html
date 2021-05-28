@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영화정보카드.html</title>
+    <link href=https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap"
+     rel="stylesheet">
+     <link rel="stylesheet" href="./style.css">
+     <style>
+         section{
+             width: 1288px;
+          
+             position: absolute;
+             /*수평 중앙 정렬*/
+             left: 50%;
+             margin-left: calc(-1288px / 2);
+             /*수직 중앙 정렬*/
+             top: 50%;
+             margin-top: calc(-610px / 2);
+
+         }
+         body{
+            font-family: 'Noto Sans KR', sans-serif;
+         }
+         .card{
+             width: 400px;
+             height: 610;
+             background: white;
+            
+             float: left;
+             box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
+         }
+         .card2{
+             width: 400px;
+             height: 610;
+             background: white;
+            
+             float: left;
+             margin-left: 40px;
+             box-shadow: 2px 4px 8px rgba( 0, 0, 0, 0.4);
+
+         }
+         .card3{
+             width: 400px;
+             height: 610;
+             background: white;
+          
+             float: left;
+             margin-left: 40px;
+             box-shadow: 2px 4px 8px rgba( 0, 0, 0, 0.4);
+
+         }
+         .card h4{
+             font-size: 20px;
+             font-weight: 500;
+             margin-bottom: 10px;
+             line-height: 35px;
+             margin-top: 0px;
+         }
+          h4{
+             font-size: 20px;
+             font-weight: 500;
+             margin-bottom: 0px;
+            
+             margin-top: 0px;
+         }
+         .card p{
+             font-size: 14px;
+             font-weight: 400;
+             margin-bottom: 20px;
+             line-height: 26px;
+         }
+        
+         .card2 p{
+             font-size: 14px;
+             font-weight: 400;
+             margin-bottom: 20px;
+             line-height: 26px;
+         }
+         .card3 p{
+             font-size: 14px;
+             font-weight: 400;
+             margin-bottom: 20px;
+             line-height: 26px;
+         }
+         .link_btn{
+             display: block;
+             border: 1px solid #707070;
+             padding: 10px;
+             text-align: center;
+             background: white;
+             color: #707070;
+             text-decoration: none;
+             border-radius: 10px;
+             box-shadow: 2px 4px 8px rgba( 0, 0, 0, 0.2);
+
+
+         }
+         .card > .info{
+             padding-top: 15px;
+             padding-right: 20px;
+             padding-left: 20px;
+             padding-bottom: 20px;
+            }
+        .card2 > .info{
+             padding-top: 5px;
+             padding-right: 20px;
+             padding-left: 20px;
+             padding-bottom: 10px;
+            }
+            .card3 > .info{
+             padding-top: 5px;
+             padding-right: 20px;
+             padding-left: 20px;
+             padding-bottom: 10px;
+            }
+
+
+     </style>
+</head>
+<body>
+   <section>
+    <div class="card">
+        <img src="./florida.jpg" alt="florida project">
+        <div class="info">
+            <h4>Florida Project, 2017</h4>
+            <p>"어른들이 울려고하면 난 바로 알아"</p>
+            <a href="https://tv.naver.com/v/2525134" class="link_btn">예고편 보기</a>
+        </div>
+    </div>
+    <div class="card2">
+        <img src="good will.jpg" alt="Good Will Hunting">
+        <div class="info">
+            <h4>Good Will Hunting, 1997</h4>
+            <p>너 고아지? 네가 뭘 느끼고 어떤 앤지 올리버트위스트만 
+                <br>읽어보면 다 알수있을까? 그게 널 다 설명할수 있어?</p>
+                <a href="https://tv.naver.com/v/1014992" class="link_btn">예고편 보기</a>
+        </div>
+
+    </div>
+    <div class="card3">
+        <img src="./notebook.jpg" alt="Notebook">
+        <div class="info">
+            <h4>The Notebook, 2004</h4>
+            <p>"네가 원하는 것이 무엇이든 말만 해.
+                <br>내가 널 위해 그것이 되어줄게."</p>
+            <a href="https://tv.naver.com/v/1117776" class="link_btn">예고편 보기</a>
+        </div>
+    </div>
+   </section>
+   
+
+  
+
+
+
+    
+</body>
+</html>
